@@ -11,6 +11,7 @@ const informAluno = {
 
 const reformador = {
   nomeLimpo: informAluno.nomeAluno.trim(),
+  disciplinaLimpa: informAluno.disciplina.trim(),
   conversorIdade: Number(informAluno.idadeAluno),
   conversorNota1: Number(informAluno.primeiraNota),
   conversorNota2: Number(informAluno.segundaNota),
@@ -19,10 +20,9 @@ const reformador = {
   conversorTotal: Number(informAluno.totalAulas),
 };
 
-const frequencia = (
-  (reformador.conversorAulas / reformador.conversorTotal) *
-  100
-).toFixed(2);
+const frequencia =
+  ((reformador.conversorAulas / reformador.conversorTotal) * 100).toFixed(1) +
+  "%";
 
 const soma =
   reformador.conversorNota1 +
@@ -37,56 +37,41 @@ const resultado = {
   frequencia: frequencia,
 };
 
-if (reformador.nomeLimpo === "") {
-  console.log("Ocorreu um erro!");
-} else {
-}
+reformador.nomeLimpo === ""
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
 
-if (Number.isNaN(reformador.conversorIdade) || reformador.conversorIdade < 0) {
-  console.log("Ocorreu um erro!");
-} else {
-  console.log("Tudo certo!");
-}
+reformador.disciplinaLimpa === ""
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
 
-if (
-  reformador.conversorNota1 < 0 ||
-  reformador.conversorNota1 > 10 ||
-  Number.isNaN(reformador.conversorNota1)
-) {
-  console.log("Ocorreu um erro!");
-} else {
-  console.log("Tudo certo!");
-}
+Number.isNaN(reformador.conversorIdade) || reformador.conversorIdade < 0
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
 
-if (
-  reformador.conversorNota2 < 0 ||
-  reformador.conversorNota2 > 10 ||
-  Number.isNaN(reformador.conversorNota2)
-) {
-  console.log("Ocorreu um erro!");
-} else {
-  console.log("Tudo certo!");
-}
+reformador.conversorNota1 < 0 ||
+reformador.conversorNota1 > 10 ||
+Number.isNaN(reformador.conversorNota1)
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
 
-if (
-  reformador.conversorNota3 < 0 ||
-  reformador.conversorNota3 > 10 ||
-  Number.isNaN(reformador.conversorNota3)
-) {
-  console.log("Ocorreu um erro!");
-} else {
-  console.log("Tudo certo!");
-}
+reformador.conversorNota2 < 0 ||
+reformador.conversorNota2 > 10 ||
+Number.isNaN(reformador.conversorNota2)
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
 
-if (
-  Number.isNaN(reformador.conversorAulas) ||
-  reformador.conversorAulas > reformador.conversorTotal ||
-  reformador.conversorAulas < 0
-) {
-  console.log("Ocorreu um erro!");
-} else {
-  console.log("Tudo certo!");
-}
+reformador.conversorNota3 < 0 ||
+reformador.conversorNota3 > 10 ||
+Number.isNaN(reformador.conversorNota3)
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo!");
+
+Number.isNaN(reformador.conversorAulas) ||
+reformador.conversorAulas > reformador.conversorTotal ||
+reformador.conversorAulas < 0
+  ? console.log("Ocorreu um erro!")
+  : console.log("Tudo certo");
 
 const validacao =
   Number.isNaN(reformador.conversorTotal) ||
