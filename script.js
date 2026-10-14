@@ -87,3 +87,5 @@ if (resultado.media >= 7 && resultado.frequencia >= 75) {
 } else {
   console.log("Reprovado");
 }
+
+//Atualizou certinho
