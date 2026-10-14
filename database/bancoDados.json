@@ -1,3 +1,74 @@
 {
-  "aluno": { "nome": "Carlos Henrique", "idade": 19 }
+  "alunos": [
+    {
+      "nome": "David",
+      "idade": 18,
+      "primeiraNota": 8,
+      "segundaNota": 10,
+      "terceiraNota": 5
+    },
+    {
+      "nome": "Carlos",
+      "idade": 19,
+      "primeiraNota": 6,
+      "segundaNota": 7,
+      "terceiraNota": 8
+    },
+    {
+      "nome": "Lívia",
+      "idade": 18,
+      "primeiraNota": 10,
+      "segundaNota": 9,
+      "terceiraNota": 10
+    },
+    {
+      "nome": "Marcos",
+      "idade": 20,
+      "primeiraNota": 3,
+      "segundaNota": 4,
+      "terceiraNota": 2
+    },
+    {
+      "nome": "Ana",
+      "idade": 17,
+      "primeiraNota": 7,
+      "segundaNota": 5,
+      "terceiraNota": 6
+    },
+    {
+      "nome": "Rafael",
+      "idade": 21,
+      "primeiraNota": 9,
+      "segundaNota": 8,
+      "terceiraNota": 7
+    },
+    {
+      "nome": "Juliana",
+      "idade": 19,
+      "primeiraNota": 5,
+      "segundaNota": 5,
+      "terceiraNota": 5
+    },
+    {
+      "nome": "Pedro",
+      "idade": 18,
+      "primeiraNota": 0,
+      "segundaNota": 10,
+      "terceiraNota": 4
+    },
+    {
+      "nome": "Beatriz",
+      "idade": 22,
+      "primeiraNota": 6.5,
+      "segundaNota": 7.5,
+      "terceiraNota": 8
+    },
+    {
+      "nome": "Lucas",
+      "idade": 20,
+      "primeiraNota": 4,
+      "segundaNota": 6,
+      "terceiraNota": 3
+    }
+  ]
 }
