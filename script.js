@@ -1,5 +1,5 @@
 const informAluno = {
-  nomeAluno: "Carlos Henrique Rocha de Abreu",
+  nomeAluno: "       Carlos Henrique Rocha de Abreu      ",
   idadeAluno: "19",
   disciplina: "Banco de Dados",
   primeiraNota: "4",
@@ -20,72 +20,87 @@ const reformador = {
   conversorTotal: Number(informAluno.totalAulas),
 };
 
-const frequencia =
-  ((reformador.conversorAulas / reformador.conversorTotal) * 100).toFixed(1) +
-  "%";
-
-const soma =
-  reformador.conversorNota1 +
-  reformador.conversorNota2 +
-  reformador.conversorNota3;
-
-const media = (soma / 3).toFixed(2);
-
-const resultado = {
-  soma: soma,
-  media: media,
-  frequencia: frequencia,
+const frequencia = (assistidas, total) => {
+  return (assistidas / total) * 100;
 };
 
-reformador.nomeLimpo === ""
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const soma = (n1, n2, n3) => {
+  return n1 + n2 + n3;
+};
 
-reformador.disciplinaLimpa === ""
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const media = (soma) => {
+  return soma / 3;
+};
 
-Number.isNaN(reformador.conversorIdade) || reformador.conversorIdade < 0
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const frequenciaAulas = frequencia(
+  reformador.conversorAulas,
+  reformador.conversorTotal,
+);
 
-reformador.conversorNota1 < 0 ||
-reformador.conversorNota1 > 10 ||
-Number.isNaN(reformador.conversorNota1)
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const somaNotas = soma(
+  reformador.conversorNota1,
+  reformador.conversorNota2,
+  reformador.conversorNota3,
+);
 
-reformador.conversorNota2 < 0 ||
-reformador.conversorNota2 > 10 ||
-Number.isNaN(reformador.conversorNota2)
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const calculoMedia = media(soma);
 
-reformador.conversorNota3 < 0 ||
-reformador.conversorNota3 > 10 ||
-Number.isNaN(reformador.conversorNota3)
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo!");
+const textosValidos = (nome, disciplina) => {
+  return nome.trim() !== "" && disciplina.trim() !== ""
+    ? "Tudo certo!"
+    : "Ocorreu um erro!";
+};
+textosValidos(reformador.nomeLimpo, reformador.disciplinaLimpa);
 
-Number.isNaN(reformador.conversorAulas) ||
-reformador.conversorAulas > reformador.conversorTotal ||
-reformador.conversorAulas < 0
-  ? console.log("Ocorreu um erro!")
-  : console.log("Tudo certo");
+const idadeValida = (idade) => {
+  return Number.isNaN(idade) || idade < 0 ? "Ocorreu um erro!" : "Tudo certo!";
+};
+idadeValida(reformador.conversorIdade);
 
-const validacao =
-  Number.isNaN(reformador.conversorTotal) ||
-  reformador.conversorTotal < reformador.conversorAulas ||
-  reformador.conversorTotal <= 0
-    ? console.log("Ocorreu um erro!")
-    : console.log("Tudo certo!");
+const validarNotas = (nota1, nota2, nota3) => {
+  return nota1 < 0 ||
+    nota1 > 10 ||
+    Number.isNaN(nota1) ||
+    nota2 < 0 ||
+    nota2 > 10 ||
+    Number.isNaN(nota2) ||
+    nota3 < 0 ||
+    nota3 > 10 ||
+    Number.isNaN(nota3)
+    ? "Ocorreu um erro!"
+    : "Tudo certo!";
+};
+validarNotas(
+  reformador.conversorNota1,
+  reformador.conversorNota2,
+  reformador.conversorNota3,
+);
 
-if (resultado.media >= 7 && resultado.frequencia >= 75) {
+const validacaoAulas = (assistidas, totais) => {
+  return assistidas > totais ||
+    assistidas < 0 ||
+    Number.isNaN(assistidas) ||
+    totais <= 0 ||
+    Number.isNaN(totais)
+    ? "Ocorreu um erro!"
+    : "Tudo certo!";
+};
+validacaoAulas(reformador.conversorAulas, reformador.conversorTotal);
+
+if (calculoMedia >= 7 && frequenciaAulas >= 75) {
   console.log("Aprovado!");
-} else if (resultado.media < 7 && media >= 4 && resultado.frequencia >= 75) {
+} else if (calculoMedia < 7 && calculoMedia >= 4 && frequenciaAulas >= 75) {
   console.log("Recuperação");
 } else {
   console.log("Reprovado");
 }
 
-//Atualizou certinho
+const resultadoFinal = {
+  nome: reformador.nomeLimpo,
+  idade: reformador.conversorIdade,
+  disciplina: reformador.disciplinaLimpa,
+  notas: `${reformador.conversorNota1}, ${reformador.conversorNota2}, ${reformador.conversorNota3}`,
+  media: calculoMedia,
+  soma: somaNotas,
+};
+console.table([resultadoFinal]);
