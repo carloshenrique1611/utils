@@ -1,74 +1,1626 @@
 {
+  "instituicao": "Uninassau Olinda Shopping Patteo",
+  "sala": 29,
   "alunos": [
     {
-      "nome": "David",
-      "idade": 18,
-      "primeiraNota": 8,
-      "segundaNota": 10,
-      "terceiraNota": 5
+      "nomeAluno": "Carlos Henrique Rocha de Abreu",
+      "idadeAluno": 19,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 2, 7],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [4, 2, 10],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [4.5, 6, 6],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [4, 8, 8],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [1, 10, 6],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6.5, 5, 10],
+          "aulasAssistidas": 13,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 7, 6],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [7, 5, 7],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Carlos",
-      "idade": 19,
-      "primeiraNota": 6,
-      "segundaNota": 7,
-      "terceiraNota": 8
+      "nomeAluno": "Ana Beatriz Lima Cavalcanti",
+      "idadeAluno": 19,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [9, 8, 10],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [6, 8, 6],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [5, 10, 8],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [9, 9.5, 9],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [8, 10, 9.5],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [9, 1.5, 6],
+          "aulasAssistidas": 12,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [7, 0.5, 1],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 6, 9],
+          "aulasAssistidas": 4,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Lívia",
-      "idade": 18,
-      "primeiraNota": 10,
-      "segundaNota": 9,
-      "terceiraNota": 10
+      "nomeAluno": "João Pedro Alves Ferreira",
+      "idadeAluno": 34,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [10, 8, 9],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [5, 9, 6],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [5, 6, 6],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [6, 8, 8],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [4, 6.5, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6, 6, 5],
+          "aulasAssistidas": 19,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [1, 6, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 8, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Marcos",
-      "idade": 20,
-      "primeiraNota": 3,
-      "segundaNota": 4,
-      "terceiraNota": 2
+      "nomeAluno": "Mariana Souza Albuquerque",
+      "idadeAluno": 34,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [8, 2, 6],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [9, 9, 0.5],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [5, 9, 6],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [9, 6, 8],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [4.5, 4.5, 6],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [5, 6, 10],
+          "aulasAssistidas": 20,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [10, 9, 5],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [5, 9, 6],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Ana",
-      "idade": 17,
-      "primeiraNota": 7,
-      "segundaNota": 5,
-      "terceiraNota": 6
+      "nomeAluno": "Rafael Monteiro Barbosa",
+      "idadeAluno": 32,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [2.5, 6.5, 6],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [9, 5.5, 10],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [7, 5, 5],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [7, 9, 10],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [6, 10, 8],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [1.5, 5, 8],
+          "aulasAssistidas": 15,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 6, 5],
+          "aulasAssistidas": 6,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [8, 5, 2],
+          "aulasAssistidas": 2,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Rafael",
-      "idade": 21,
-      "primeiraNota": 9,
-      "segundaNota": 8,
-      "terceiraNota": 7
+      "nomeAluno": "Juliana Costa Bezerra",
+      "idadeAluno": 30,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 6, 9],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [0.5, 9, 5],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [5, 10, 10],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [8, 6, 5],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [9, 8, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [10, 6, 6],
+          "aulasAssistidas": 11,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [0.5, 10, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [2.5, 5, 10],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Juliana",
-      "idade": 19,
-      "primeiraNota": 5,
-      "segundaNota": 5,
-      "terceiraNota": 5
+      "nomeAluno": "Lucas Gabriel Nunes Pereira",
+      "idadeAluno": 34,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [5, 8, 8],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [6, 6, 9],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [5, 7, 5],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [10, 5, 9],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [8, 9, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 8, 7],
+          "aulasAssistidas": 18,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [7, 8, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 8, 8.5],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Pedro",
-      "idade": 18,
-      "primeiraNota": 0,
-      "segundaNota": 10,
-      "terceiraNota": 4
+      "nomeAluno": "Fernanda Oliveira Tavares",
+      "idadeAluno": 29,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [8, 8, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [4.5, 7, 6.5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [9.5, 6, 5],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [7, 6, 6],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [7, 10, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 8, 8],
+          "aulasAssistidas": 12,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [5, 8.5, 7],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 9, 10],
+          "aulasAssistidas": 6,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Beatriz",
-      "idade": 22,
-      "primeiraNota": 6.5,
-      "segundaNota": 7.5,
-      "terceiraNota": 8
+      "nomeAluno": "Matheus Araújo Silveira",
+      "idadeAluno": 24,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [5, 6, 10],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [7, 7, 9],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [0, 8, 6],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [4.5, 8, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [7, 9, 8],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [5, 10, 10],
+          "aulasAssistidas": 15,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 6, 6],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 5, 6],
+          "aulasAssistidas": 2,
+          "totalAulas": 10
+        }
+      ]
     },
     {
-      "nome": "Lucas",
-      "idade": 20,
-      "primeiraNota": 4,
-      "segundaNota": 6,
-      "terceiraNota": 3
+      "nomeAluno": "Camila Rodrigues Freitas",
+      "idadeAluno": 17,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [8, 4.5, 2.5],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [4, 9, 1],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [9, 8, 7],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5.5, 6, 5],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [5, 8, 6],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 7, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 7, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [9, 4.5, 10],
+          "aulasAssistidas": 10,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Gustavo Henrique Melo Santos",
+      "idadeAluno": 25,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [0.5, 10, 6],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [7, 8, 8],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [3.5, 7, 7],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5, 5, 5],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [9, 8, 6],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 9, 10],
+          "aulasAssistidas": 13,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [5, 5, 10],
+          "aulasAssistidas": 8,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [7, 8, 9],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Beatriz Carvalho Macedo",
+      "idadeAluno": 23,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [9, 7, 9],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [7, 8, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [6, 6, 10],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [10, 5, 9],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [8.5, 5.5, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 6, 10],
+          "aulasAssistidas": 16,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6.5, 6, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 10, 5],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Thiago Lins de Andrade",
+      "idadeAluno": 26,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [8, 8, 5],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [8, 10, 4.5],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 7, 8],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [6, 5, 7],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 2.5, 10],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6, 6, 10],
+          "aulasAssistidas": 12,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 3, 10],
+          "aulasAssistidas": 2,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [7, 6, 7],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Larissa Gomes Pinheiro",
+      "idadeAluno": 32,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 8, 6],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [3.5, 5, 10],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 6, 9],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5, 7, 1],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 9, 7],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6, 8, 9.5],
+          "aulasAssistidas": 16,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [8, 5, 10],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [4, 9.5, 6.5],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Vinícius Batista Moura",
+      "idadeAluno": 27,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [6, 9, 6],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [8, 6, 5.5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [7, 5, 6],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5, 4.5, 4.5],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [3, 8, 5],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [5, 5, 10],
+          "aulasAssistidas": 17,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 9, 1],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 6, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Isabela Ramos Figueiredo",
+      "idadeAluno": 20,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 6, 0.5],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [10, 8, 9],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 8.5, 9],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [9, 8, 7],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [9, 8, 10],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [10, 9, 6],
+          "aulasAssistidas": 12,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [1.5, 9, 8],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 8, 6],
+          "aulasAssistidas": 10,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Felipe Augusto Dantas",
+      "idadeAluno": 18,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 8, 4],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [7, 5.5, 2],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [6, 7, 8],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [9, 10, 0.5],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [5, 9, 8],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 9, 8.5],
+          "aulasAssistidas": 17,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 6, 7],
+          "aulasAssistidas": 4,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [3.5, 5, 7],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Letícia Marques Vasconcelos",
+      "idadeAluno": 24,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 1.5, 10],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [9, 9, 10],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [8, 6.5, 5],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5, 8.5, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [6, 9, 8],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [4.5, 5, 8],
+          "aulasAssistidas": 19,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 7, 4],
+          "aulasAssistidas": 6,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [5, 10, 9],
+          "aulasAssistidas": 6,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Eduardo Sales Correia",
+      "idadeAluno": 26,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [10, 1.5, 8],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [6.5, 8, 7],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [8, 6, 1],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [9, 6, 10],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [7, 9, 8],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [8, 9, 7],
+          "aulasAssistidas": 19,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 6, 8],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [9.5, 6, 9],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Amanda Ferraz Holanda",
+      "idadeAluno": 19,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [6, 5, 9],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [5, 2, 10],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [7, 6, 4.5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [6, 7, 5],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [9, 0.5, 9],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [5, 8, 5],
+          "aulasAssistidas": 12,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9.5, 4, 7],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [5, 2.5, 10],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Bruno César Leite",
+      "idadeAluno": 18,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 10, 8],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [0.5, 5, 7],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [9, 10, 5],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [7, 10, 8],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [8, 9, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6, 5, 7],
+          "aulasAssistidas": 20,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 5, 8],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 10, 6],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Gabriela Torres Medeiros",
+      "idadeAluno": 21,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [10, 3.5, 10],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [5, 8, 6.5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [8, 5, 10],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [7, 2, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [7, 9, 6],
+          "aulasAssistidas": 11,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [5, 6, 9],
+          "aulasAssistidas": 18,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 6, 10],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [4, 1.5, 10],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Diego Fernandes Queiroz",
+      "idadeAluno": 34,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [6, 4.5, 7],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [10, 9, 7],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 5, 9],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [10, 8.5, 8.5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [9, 9, 5],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [7, 10, 3],
+          "aulasAssistidas": 13,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [8, 9, 10],
+          "aulasAssistidas": 6,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [6, 5, 5],
+          "aulasAssistidas": 8,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Natália Brito Siqueira",
+      "idadeAluno": 24,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [5, 9, 6],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [6, 9, 7],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [8, 6, 7],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [10, 3, 7],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [3.5, 6, 5],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [9, 8.5, 5],
+          "aulasAssistidas": 16,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [7, 6, 5],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [8, 9, 9],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Pedro Lucas Moreira Campos",
+      "idadeAluno": 29,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [10, 9, 7],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [3.5, 9, 8],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 9, 10],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [8, 5.5, 8],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 9, 8.5],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [9, 8, 6],
+          "aulasAssistidas": 19,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [7, 6, 7],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 8, 9],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Yasmin Teixeira Rêgo",
+      "idadeAluno": 20,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [9, 8, 6],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [3, 8, 6],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [9, 9, 10],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [8, 5, 9],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [8, 7, 3],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [2.5, 6, 9],
+          "aulasAssistidas": 17,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 5, 5],
+          "aulasAssistidas": 5,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [10, 6, 5],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Arthur Miranda Coelho",
+      "idadeAluno": 31,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [10, 7, 6],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [8, 5, 6],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [3, 6, 7],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [5, 10, 5],
+          "aulasAssistidas": 10,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 10, 6],
+          "aulasAssistidas": 8,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [8, 9, 10],
+          "aulasAssistidas": 14,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [7, 9, 1],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [9, 6, 9],
+          "aulasAssistidas": 2,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Sofia Martins Accioly",
+      "idadeAluno": 23,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 9, 9],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [9, 6.5, 5],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [8, 7, 5],
+          "aulasAssistidas": 6,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [6, 10, 8],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 6.5, 9],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [1.5, 7, 9],
+          "aulasAssistidas": 19,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [6, 6, 2],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [8, 2.5, 6],
+          "aulasAssistidas": 4,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Renan Vieira Lacerda",
+      "idadeAluno": 18,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [6, 5, 7],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [9, 6, 4],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 8, 7],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [8, 8, 8],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [10, 5, 9],
+          "aulasAssistidas": 12,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [6, 8, 10],
+          "aulasAssistidas": 11,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [2.5, 6, 7],
+          "aulasAssistidas": 1,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [2, 8, 10],
+          "aulasAssistidas": 7,
+          "totalAulas": 10
+        }
+      ]
+    },
+    {
+      "nomeAluno": "Clara Neves Bandeira",
+      "idadeAluno": 24,
+      "disciplinas": [
+        {
+          "disciplina": "Front-End Frameworks",
+          "notas": [7, 10, 7],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Desenvolvimento de Aplicações para Internet",
+          "notas": [10, 7, 3.5],
+          "aulasAssistidas": 15,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Inteligência Artificial Aplicada",
+          "notas": [10, 9, 6],
+          "aulasAssistidas": 9,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Banco de Dados",
+          "notas": [6, 10, 8],
+          "aulasAssistidas": 13,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Engenharia de Requisitos, Teste e Qualidade de Software",
+          "notas": [7, 9, 2],
+          "aulasAssistidas": 14,
+          "totalAulas": 15
+        },
+        {
+          "disciplina": "Coding",
+          "notas": [0.5, 8, 8.5],
+          "aulasAssistidas": 13,
+          "totalAulas": 20
+        },
+        {
+          "disciplina": "Atividades Práticas Interdisciplinares de Extensão I",
+          "notas": [9, 9, 6.5],
+          "aulasAssistidas": 9,
+          "totalAulas": 10
+        },
+        {
+          "disciplina": "Governança de TI e Compliance",
+          "notas": [5.5, 7, 10],
+          "aulasAssistidas": 3,
+          "totalAulas": 10
+        }
+      ]
     }
   ]
 }
