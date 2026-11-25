@@ -26,8 +26,8 @@
         },
         {
           "disciplina": "Banco de Dados",
-          "notas": [4, 8, 8],
-          "aulasAssistidas": 10,
+          "notas": [4, 8, 8, 8],
+          "aulasAssistidas": 15,
           "totalAulas": 15
         },
         {
